@@ -1,0 +1,11 @@
+[package]
+name = "cibo"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+ciborium = "0.2" # For CBOR serialization
+sha2 = "0.10"    # For SHA-256 hashing
+serde = { version = "1.0", features = ["derive"] } # For serialization support
+hex = "0.4"      # For decoding hexadecimal strings
+primitive-types = "0.12" # Provides U256 type
