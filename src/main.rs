@@ -1,7 +1,7 @@
 use ciborium;
 use sha2::{Sha256, Digest};
 use serde::Serialize;
-use primitive_types::U256;
+use primitive_types::U256; // shitcoiner's crate
 
 #[derive(Debug)]
 pub struct Hash(U256);
