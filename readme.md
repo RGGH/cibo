@@ -1,6 +1,6 @@
 # Rust CBOR Serializer and SHA-256 Hasher
 
-## erialize data (such as transaction data or any other structured data) and then compute a SHA-256 hash of that serialized data
+### Serialize data (such as transaction data or any other structured data) and then compute a SHA-256 hash of that serialized data
 
 This repository provides a Rust implementation for serializing any `serde::Serialize` type into CBOR format using `ciborium` and hashing the serialized data using SHA-256. The resulting hash is displayed in hexadecimal format.
 
